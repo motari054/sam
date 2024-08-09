@@ -1,7 +1,6 @@
 export function Content(){
     return (
         <>
-
 <body>
         
         
@@ -49,13 +48,13 @@ export function Content(){
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
-            <img src="images/dev-jane-02.jpg" alt="Jane leaning against a bus" />
+            <img src="images/dev-jane-02.jpg" alt="Jane leaning against a bus" className="about-me__img"/>
         </section>
         
         {/* Work */}
         <section class="my-work" id="work">
-            <h2 class="section__title">My work</h2>
-            <p class="section__subtitle"></p>
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Some of my Work</p>
             
             <div class="portfolio">
                 {/* Portfolio item 01 */}
@@ -87,32 +86,8 @@ export function Content(){
                 <a href="#" class="portfolio__item">
                     <img src="images/portfolio-06.jpg" alt="" class="portfolio__img" />
                 </a>
-                
-                {/* Portfolio item 07 */}
-                <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-07.jpg" alt="" class="portfolio__img"/>
-                </a>
-                
-                {/* Portfolio item 08 */}
-                <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-08.jpg" alt="" class="portfolio__img"/>
-                </a>
-                
-                {/* Portfolio item 09  */}
-                <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-09.jpg" alt="" class="portfolio__img"/>
-                </a>
-                
-                 {/* Portfolio item 0 0 */}
-                <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-10.jpg" alt="" class="portfolio__img"/>
-                </a>
             </div>
         </section>
-        
-        
-        
-        
     </body>
         </>
     )
