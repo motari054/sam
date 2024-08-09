@@ -1,125 +1,120 @@
 export function Content(){
     return (
         <>
-        {/* Intro */}
-        <section className="intro" id="home">
-            <h1 className="section--title section--title--intro">
-                Hi, I am Sam
+
+<body>
+        
+        
+        {/* Intro  */}
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Sam</strong>
             </h1>
-            <p className="section--subtitle section--subtitle--intro">Full Stack Dev</p>
-            <img src="images/dev-jane-01.jpg" alt="" />
+            <p class="section__subtitle section__subtitle--intro">Full Stack Dev</p>
+            <img src="images/dev-jane-01.jpg" alt="a picture of Jane Smith smiling" class="intro__img" />
         </section>
-
-        {/* Services */}
-        <section className="my-services" id="services">
-            <h2 className="section--title section--title--services">What I do</h2>
-            <div className="services">
-                <h3>Design + Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cum quo reprehenderit quas quibusdam reiciendis inventore nemo expedita 
-                    repudiandae beatae, deserunt corporis veritatis voluptatem, 
-                    aliquam dolor! Repudiandae est delectus eius in!</p>
+        
+        
+        {/* My services */}
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
             </div>
-            {/* End of Service */}
-
-            <div className="services">
-                <h3>E-Commerce</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cum quo reprehenderit quas quibusdam reiciendis inventore nemo expedita 
-                    repudiandae beatae, deserunt corporis veritatis voluptatem, 
-                    aliquam dolor! Repudiandae est delectus eius in!</p>
-            </div>
-            {/* End of Service */}
-
-            <div className="services">
-                <h3>WordPress</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cum quo reprehenderit quas quibusdam reiciendis inventore nemo expedita 
-                    repudiandae beatae, deserunt corporis veritatis voluptatem, 
-                    aliquam dolor! Repudiandae est delectus eius in!</p>
-            </div>
-            {/* End of Service */}
-            <a href="#work" className="btn">My Work</a>
+            
+            <a href="#work" class="btn">My Work</a>
         </section>
-
+        
+        
         {/* About */}
-        <section className="about-me" id="about">
-            <h2 className="section--title section--title--about">Who am I</h2>
-            <p className="section--subtitle section--subtitle--about"></p>
-            <div className="about--me--body">
-                <p></p>
-                <p></p>
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Designer & developer based out of NYC</p>
+            
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            <img src="images/dev-jane-02.jpg" alt="" />
-        </section>
 
+            <img src="images/dev-jane-02.jpg" alt="Jane leaning against a bus" />
+        </section>
+        
         {/* Work */}
-        <section className="my-work" id="work">
-            <h2 className="section--title">My Work</h2>
-            <p className="section--subtitle"></p>
-            <div className="portfolio">
-                {/* Portfolio 1 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-01.jpg" alt="" className="portfolio--img"/>
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"></p>
+            
+            <div class="portfolio">
+                {/* Portfolio item 01 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-01.jpg" alt="" class="portfolio__img"/>
                 </a>
-
-                {/* Portfolio 2 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-02.jpg" alt="" className="portfolio--img"/>
+                
+                {/* Portfolio item 02 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-02.jpg" alt="" class="portfolio__img"/>
                 </a>
-
-                {/* Portfolio 3 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-03.jpg" alt="" className="portfolio--img"/>
+                
+                {/* Portfolio item 03 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-03.jpg" alt="" class="portfolio__img" />
                 </a>
-
-                {/* Portfolio 4 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-04.jpg" alt="" className="portfolio--img"/>
+                
+                {/* Portfolio item 04 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-04.jpg" alt="" class="portfolio__img" />
                 </a>
-
-                {/* Portfolio 5 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-05.jpg" alt="" className="portfolio--img"/>
+                
+                {/* Portfolio item 05 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-05.jpg" alt="" class="portfolio__img" /> 
                 </a>
-
-                {/* Portfolio 6 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-06.jpg" alt="" className="portfolio--img"/>
+                
+                {/* Portfolio item 06 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-06.jpg" alt="" class="portfolio__img" />
                 </a>
-
-                {/* Portfolio 7 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-07.jpg" alt="" className="portfolio--img"/>
+                
+                {/* Portfolio item 07 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-07.jpg" alt="" class="portfolio__img"/>
                 </a>
-
-                {/* Portfolio 8 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-08.jpg" alt="" className="portfolio--img"/>
+                
+                {/* Portfolio item 08 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-08.jpg" alt="" class="portfolio__img"/>
                 </a>
-
-                {/* Portfolio 9 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-09.jpg" alt="" className="portfolio--img"/>
+                
+                {/* Portfolio item 09  */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-09.jpg" alt="" class="portfolio__img"/>
                 </a>
-
-                {/* Portfolio 10 */}
-                <a href="#" className="portfolio--item">
-                    <img src="images/portfolio-10.jpg" alt="" className="portfolio--img"/>
+                
+                 {/* Portfolio item 0 0 */}
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-10.jpg" alt="" class="portfolio__img"/>
                 </a>
             </div>
         </section>
-
-        {/* Footer */}
-        <footer>
-            <a href="mailto:samuelmotari054@gmail.com" className="footer--link">samuelmotari054@gmail.com</a>
-            <ul className="social--list">
-                <li className="social--list--item"><a href="#" className="social--list--link">a</a></li>
-                <li className="social--list--item"><a href="#" className="social--list--link">b</a></li>
-                <li className="social--list--item"><a href="#" className="social--list--link">c</a></li>
-                <li className="social--list--item"><a href="#" className="social--list--link">d</a></li>
-            </ul>
-        </footer>
+        
+        
+        
+        
+    </body>
         </>
     )
 }
+

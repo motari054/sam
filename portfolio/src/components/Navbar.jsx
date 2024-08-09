@@ -2,18 +2,18 @@ export function Navbar(){
     return (
         <>
         <header>
-            <div className="logo">
-                <h1>Sam</h1>
+            <div class="logo">
+                <img src="images/devjane.png" alt="" />
             </div>
-            <button className="nav-toggle" aria-label="toggle navigation">
-                <span className="hamburger"></span>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
             </button>
-            <nav className="nav">
-                <ul className="nav--list">
-                    <li className="nav--item"><a href="#home">Home</a></li>
-                    <li className="nav--item"><a href="#services">My Services</a></li>
-                    <li className="nav--item"><a href="#about">About me</a></li>
-                    <li className="nav--item"><a href="#work">My Work</a></li>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
