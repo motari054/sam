@@ -291,7 +291,13 @@ nav { display: none; }
       opacity 250ms linear; 
 }
 
-.portfolio__img:hover{
-  transform: scale(1.2);
-  opacity: 0.5;
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: .5;
 }
