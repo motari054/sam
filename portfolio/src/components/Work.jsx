@@ -26,16 +26,6 @@ export function Work(){
                 <a href="#" class="portfolio__item">
                     <img src="images/portfolio-04.jpg" alt="" class="portfolio__img" />
                 </a>
-                
-                {/* Portfolio item 05 */}
-                <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-05.jpg" alt="" class="portfolio__img" /> 
-                </a>
-                
-                {/* Portfolio item 06 */}
-                <a href="#" class="portfolio__item">
-                    <img src="images/portfolio-06.jpg" alt="" class="portfolio__img" />
-                </a>
             </div>
         </section>
         </>

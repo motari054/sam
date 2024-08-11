@@ -7,7 +7,7 @@ export function Intro(){
                 Hi, I am <strong>Sam</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">Full Stack Dev</p>
-            <img src="images/dev-jane-01.jpg" alt="a picture of Jane Smith smiling" class="intro__img" />
+            <img src="images/image-1.jpg" alt="a picture of Jane Smith smiling" class="intro__img" />
         </section>
         </>
     )
