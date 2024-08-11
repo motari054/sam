@@ -3,7 +3,8 @@ export function Navbar() {
     return (
         <header>
             <div className="logo">
-                <img src="images/devjane.png" alt="Logo" />
+            <h4>&lt;sam&gt;</h4>
+                {/* <img src="images/devjane.png" alt="Logo" /> */}
             </div>
             <nav>
                 <ul className="nav__list">
