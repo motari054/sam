@@ -3,7 +3,7 @@ export function Work(){
     return (
         <>
         <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
+            <h2 class="section__title section__title--work">Projects</h2>
             <p class="section__subtitle section__subtitle--work">Some of my Work</p>
             
             <div class="portfolio">

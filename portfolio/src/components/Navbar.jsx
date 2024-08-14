@@ -12,7 +12,7 @@ export function Navbar() {
                     <li className="nav__item"><a href="#services" className="nav__link">My Services</a></li>
                     <li className="nav__item"><a href="#about" className="nav__link">About Me</a></li>
                     <li className="nav__item"><a href="#work" className="nav__link">My Work</a></li>
-                </ul>
+                </ul>   
             </nav>
         </header>
     );
