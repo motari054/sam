@@ -1,0 +1,86 @@
+:root {
+  --ff-primary: "Source Sans Pro", sans-serif;
+  --ff-secondary: "Source Code Pro", monospace;
+  --fw-reg: 300;
+  --fw-bold: 900;
+  --clr-light: #fff;
+  --clr-dark: #303030;
+  --clr-accent: #16e0bd;
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+.my-work {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
+}
+.my-work .categories {
+  margin: 0.5em 0;
+}
+.my-work .categories ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+  width: 100%;
+}
+.my-work .categories ul li {
+  list-style: none;
+  padding: 0 0.5em;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.my-work .categories ul li:hover {
+  border: 1px solid var(--clr-accent);
+  background: transparent;
+  transition: 1s ease-in-out;
+}
+.my-work .portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+}
+.my-work .portfolio .portfolio__img:hover,
+.my-work .portfolio .portfolio__item:focus .portfolio__img {
+  transform: scale(1);
+  opacity: 0.5;
+}
+.my-work .portfolio .portfolio__item {
+  display: flex;
+  flex-direction: column;
+}
+.my-work .portfolio .portfolio__item .portfolio__img {
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  background: var(--clr-accent);
+  overflow: hidden;
+}
+.my-work .portfolio .portfolio__item :nth-child(2) {
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  font-weight: 700;
+  display: flex;
+  border: none;
+  background: transparent;
+}
+.my-work .portfolio .portfolio__item button {
+  outline: none;
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 0.5em;
+  background: transparent;
+  padding: 0;
+  color: var(--clr-accent);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.my-work .portfolio .portfolio__item button:hover :nth-child(1) {
+  transform: translateX(4px);
+  transition: 0.5s ease-in-out;
+}/*# sourceMappingURL=work.css.map */
