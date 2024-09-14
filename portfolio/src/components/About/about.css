@@ -19,12 +19,18 @@
   margin: 0 auto;
 }
 .about-me .about-me__body button {
-  display: flex;
-  gap: 0.5em;
   outline: none;
   background: var(--clr-accent);
   padding: 0.7em 1.3em;
   border: none;
+  margin-bottom: 0.7em;
+}
+.about-me .about-me__body button a {
+  display: flex;
+  gap: 0.5em;
+  color: var(--ff-primary);
+  text-transform: uppercase;
+  outline: none;
 }
 .about-me .tech-stack ul {
   display: flex;

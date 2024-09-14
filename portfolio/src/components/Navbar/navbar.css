@@ -42,11 +42,12 @@ nav a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--clr-dark);
+  color: var(--clr-accent);
   font-weight: 500;
 }
 nav a:hover {
   border-bottom: 1px solid var(--clr-accent);
+  outline: none;
 }
 
 nav .home-link {

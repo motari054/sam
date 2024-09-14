@@ -24,12 +24,19 @@
 
     .about-me__body{
         button{
-            display: flex;
-            gap: .5em;
             outline: none;
             background: var(--clr-accent);
             padding: .7em 1.3em;
             border: none;
+            margin-bottom: .7em;
+            
+            a{
+                display: flex;
+                gap: .5em;
+                color: var(--ff-primary);
+                text-transform: uppercase;
+                outline: none;
+            }
         }
     }
 

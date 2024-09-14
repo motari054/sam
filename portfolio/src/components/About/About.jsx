@@ -41,8 +41,10 @@ export function About(){
                 </div>
 
                 <button data-aos='fade-up'>
-                    Hire Me
-                    <FaPaperPlane className='icon' />
+                    <a href="#contact">
+                        Hire me
+                        <FaPaperPlane className='icon' />
+                    </a>
                 </button>
 
             </div>
