@@ -18,7 +18,9 @@ export function Navbar(){
                 <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </label>
 
-            <a class="home-link" href="index.html">sam</a>
+            <a class="home-link" href="index.html">
+                <div className='logo'>sam</div>
+            </a>
             <a href="#home">Home</a> 
             <a href="#services">Services</a>
             <a href="#about">About</a>
